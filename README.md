@@ -1,6 +1,6 @@
 # Student Management System Using MongoDB
 
-A NoSQL database implementation demonstrating database creation, batch document insertion, CRUD operations, logical filtering, and sorting using MongoDB and `mongosh`[cite: 1].
+A NoSQL database implementation demonstrating database creation, batch document insertion, CRUD operations, logical filtering, and sorting using MongoDB and `mongosh`.
 
 ---
 
