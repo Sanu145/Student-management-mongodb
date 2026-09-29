@@ -5,14 +5,14 @@ A NoSQL database implementation demonstrating database creation, batch document 
 ---
 
 ## 📌 Project Overview
-This project replaces traditional relational table-based schemas with MongoDB's flexible, document-oriented data model[cite: 1]. It manages a collection of student profiles comprising academic attributes such as roll number, name, age, marks, and city[cite: 1].
+This project replaces traditional relational table-based schemas with MongoDB's flexible, document-oriented data model. It manages a collection of student profiles comprising academic attributes such as roll number, name, age, marks, and city.
 
 ### Objectives
-- Understand fundamental NoSQL database operations[cite: 1].
-- Create databases and collections via MongoDB Shell (`mongosh`) and MongoDB Compass[cite: 1].
-- Perform full CRUD (Create, Read, Update, Delete) operations[cite: 1].
-- Apply comparison and logical operators for targeted data retrieval[cite: 1].
-- Implement sorting, limiting, and document counting methods[cite: 1].
+- Understand fundamental NoSQL database operations.
+- Create databases and collections via MongoDB Shell (`mongosh`) and MongoDB Compass.
+- Perform full CRUD (Create, Read, Update, Delete) operations.
+- Apply comparison and logical operators for targeted data retrieval.
+- Implement sorting, limiting, and document counting methods.
 
 ---
 
