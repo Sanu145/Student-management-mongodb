@@ -1,0 +1,44 @@
+// 1. Switch or create database
+use Students;
+
+// 2. Create collection
+db.createCollection("students");
+
+// 3. Queries & CRUD Operations
+
+// Find all students
+db.students.find();
+
+// Comparison Operators
+db.students.find({ marks: { $eq: 88 } });
+db.students.find({ marks: { $gt: 85 } });
+db.students.find({ marks: { $lt: 60 } });
+db.students.find({ marks: { $gte: 90 } });
+db.students.find({ marks: { $lte: 70 } });
+
+// Logical Operators
+db.students.find({
+  $and: [
+    { marks: { $gt: 80 } },
+    { age: 19 }
+  ]
+});
+
+db.students.find({
+  $or: [
+    { city: "Delhi" },
+    { city: "Pune" }
+  ]
+});
+
+// Update & Delete
+db.students.updateOne({ roll: 105 }, { $set: { marks: 95 } });
+db.students.deleteOne({ roll: 110 });
+db.students.deleteMany({ marks: { $lt: 60 } });
+
+// Sorting, Limiting, and Counting
+db.students.find().sort({ marks: 1 });   // Ascending
+db.students.find().sort({ marks: -1 });  // Descending
+db.students.find().limit(5);
+db.students.find({ city: "Mumbai" });
+db.students.countDocuments();
